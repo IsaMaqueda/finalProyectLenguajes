@@ -80,7 +80,7 @@ To use the program we use
       (column-maker 3 "ejemplo.csv")
       ```
  * **get-average** gets as an argument a number and the name of a csv file. The function gets a list get-list and returns the average of each element of the file divided by 7, that are the number of the years the file has. 
-  * ``` 
+   * ``` 
       (get-averager 3 "ejemplo.csv")
       ```
 
