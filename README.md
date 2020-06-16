@@ -62,6 +62,7 @@ To use the program we use
   *   ``` 
       (element-in '(1 2 3 4 5 6 7 8) 4)
       ```
+  * [Image of function](images/element.jpeg)
       
 * **split**  gets a line from a csv as an argument. The function separates the elements by the "," and returns it as a list
   * ``` 
@@ -86,6 +87,13 @@ To use the program we use
 
 ## Description of the program
 The program recieves a csv file, gets a column from the file, gets the diferent elements that are in that column and counts the numebr of instances each element has in that column. Then
+
+## Topics Used 
+ * **FILE INPUT** In order to read the .csv file, we need to use file input
+ * **FUNCTIONAL PROGRAMMING** The data we obtain from the csv files is going to be immutable throughout all our analysis and be processed solely with functions and lambda functions. 
+ * **LISTS** The columns of data will be stored in lists and manipulated as lists.
+ * **RECURSION** Since the data is stored in lists our functions will be recursive, to be able to process each element.
+
 
 ## Requirements
 You need to use ubuntu or DrRacket in Windows. 
