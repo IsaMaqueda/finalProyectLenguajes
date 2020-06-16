@@ -2,7 +2,7 @@
     Final Proyect 
 
     Isabel Maqueda A01652906
-    Eduardo Badillo 
+    Eduardo Badillo A01020716
 
     16/6/2020
 |#
