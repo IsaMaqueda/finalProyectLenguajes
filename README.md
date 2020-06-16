@@ -62,7 +62,7 @@ To use the program we use
   *   ``` 
       (element-in '(1 2 3 4 5 6 7 8) 4)
       ```
-  * [Image of function](images/element.jpeg)
+  * ![Image of function](images/element.jpeg)
       
 * **split**  gets a line from a csv as an argument. The function separates the elements by the "," and returns it as a list
   * ``` 
