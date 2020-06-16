@@ -14,6 +14,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 With these instructions we assusme you are using UBUNTU Linux and that you have downloaded this git repository. 
+You will need to download the file named "incidentes-viales-c5.csv" from this [link](https://drive.google.com/drive/folders/1an6jfWfjKKtN1W5aaE2LgwHNjTl8VL_z?usp=sharing)
+
 You will need to install git and racket
 ``` 
 sudo apt instal git 
@@ -107,7 +109,7 @@ You need to use ubuntu or DrRacket in Windows.
 
 ## Authors
 * **Isabel Maqueda Rolon A01652906**
-* **Eduardo Badillo Alvarez A0102**
+* **Eduardo Badillo Alvarez A01020716**
 
 
 ## License
