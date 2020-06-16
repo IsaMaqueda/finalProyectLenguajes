@@ -117,4 +117,4 @@ This project is licensed under the TEC License
 * [Guillermo Echeverria](https://github.com/gilecheverria)
 * [Linear Regression](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm)
 * [Polynomial Regression](https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/#:~:text=Polynomial%20Regression%20is%20a%20form,denoted%20E(y%20%7Cx))
-* [Poisson Distribution] (https://stattrek.com/probability-distributions/poisson.aspx#:~:text=Poisson%20Formula.,(%CE%BCx)%20%2F%20x!&text=The%20mean%20of%20the%20distribution%20is%20equal%20to%20%CE%BC%20.)
+* [Poisson Distribution](https://stattrek.com/probability-distributions/poisson.aspx#:~:text=Poisson%20Formula.,(%CE%BCx)%20%2F%20x!&text=The%20mean%20of%20the%20distribution%20is%20equal%20to%20%CE%BC%20.)
