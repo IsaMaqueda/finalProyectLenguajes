@@ -45,7 +45,7 @@ And to run
 racket
 ```
 ``` 
-(enter! "")
+(enter! "Proyect5.rkt")
 ```
 and choose which functions to call.
 
@@ -57,7 +57,7 @@ To run the tests you first
 
 To use the program we use 
 ``` 
-(enter! "")
+(enter! "Proyect5.rkt")
 ```
 
 ``` 
