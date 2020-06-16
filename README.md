@@ -64,19 +64,18 @@ To use the program we use
       ```
       
 * **split**  gets a line from a csv as an argument. The function separates the elements by the "," and returns it as a list
- * ``` 
+  * ``` 
       (split "la,moronja,esta,provando,la,funcion")
       ```
 * **get-list**  gets as an argument a file and a number. The file is the name of the file we have to use and the number is the number of the column we want to use. It returns a list that first uses column-maker to change the csv file  column to a list. Then it uses count-different to count the number of different elements are in the list and then count the number instances each element has. It returns a list that has the numebr of different elements and it's count
- * ``` 
+  * ``` 
       (get-list 3 "ejemplo.csv")
       ```
 * **count-different** gets a list as an argument. From the list it gets the different elements of the list and counts the number of time that element appeared on the list.
- * ``` 
+  * ``` 
       (count-different '("1" "2" "3" "4" "1" "2" "3" "1" "2" "3" "4"))
       ```
-* **column-maker** gets as an argument a number and the name of a csv file. The function reads the file line per line. In each line it sends for split to create a list from the line, then it sends the list with the number to look up the element of that list that is in that position, and it returns a list that means a column of the csv file. 
- * ``` 
+* **column-maker** gets as an argument a number and the name of a csv file. The function reads the file line per line. In each line it sends for split to create a list from the line, then it sends the list with the number to look up the element of that list that is in     * ``` 
       (column-maker 3 "ejemplo.csv")
       ```
  * **get-average** gets as an argument a number and the name of a csv file. The function gets a list get-list and returns the average of each element of the file divided by 7, that are the number of the years the file has. 
