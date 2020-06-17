@@ -41,7 +41,7 @@ sudo apt-get update
 ``` 
 sudo apt-get install racket
 ```
-
+### Run the program
 And to run 
 ``` 
 racket
@@ -83,20 +83,7 @@ Lastly, it will display a plot of the prediction functions that were produced.
         #:x-min (min independent) #:x-max (max independent) #:y-min (- (min polyList) (standard-deviation polyList)) #:y-max (+ (max polyList) (standard-deviation polyList)))
 ```
 
-## Running the tests
-Move to the folder
-To run the tests you first
 
-### Run the program
-
-To use the program we use 
-``` 
-(enter! "finalProject.rkt")
-```
-
-``` 
-()
-```
 
 ## Functions 
 * **get-list**  gets as an argument a file and a number. The file is the name of the file we have to use and the number is the number of the column we want to use. It returns a list that first uses column-maker to change the csv file  column to a list. Then it uses count-different to count the number of different elements are in the list and then count the number instances each element has. It returns a list that has the numebr of different elements and it's count
@@ -120,6 +107,8 @@ To use the program we use
       ```
   * ![Image of function](images/average.jpeg)
   
+* **split** splits a string into a list
+* **element-in** gets an element of the list from the nth position
 * **len** calculate length of list
 * **sum** calculate addition of all the elements within the list
 * **average** calculate average of list
@@ -162,11 +151,10 @@ It later produces the following prediction functions:
  Which in turn produce the predicted values based on the data consumed. 
 
 ## Topics Used 
- * **FILE INPUT**
- * **FUNCTIONAL PROGRAMMING** 
- * **LISTS**
- * **RECURSION** 
-
+ * **FILE INPUT** We used file input to read a csv file
+ * **FUNCTIONAL PROGRAMMING** We use lambda in some of our functions.
+ * **LISTS** The columns of data will be stored in lists and manipulated as lists
+ * **RECURSION** Since the data is stored in lists our functions will be recursive, to be able to process each element.
 
 ## Requirements
 You need to use ubuntu or DrRacket in Windows. 
@@ -174,7 +162,7 @@ You need to use ubuntu or DrRacket in Windows.
 ## Built With
 * [Ubuntu](https://ubuntu.com/) - the operating system
 * [Visual Studio Code](https://code.visualstudio.com/) - Text Editor
-* [Racket](https://racket-lang.org/) - Text Editor
+* [Racket](https://racket-lang.org/) - Language
 
 
 ## Authors
