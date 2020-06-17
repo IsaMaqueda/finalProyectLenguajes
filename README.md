@@ -1,4 +1,4 @@
-# Exploratory Statistics in Racket of Number of car crashes in Mexico City
+# Exploratory Statistics and Linear Algebra Predictions in Racket
 For the Final project,  we want to write a program in Racket that can open a .csv file, read its contents and process the data inside.
 The program recieves a csv file, reads it line per line, chooses only one column and stores it in a list. From that list, the program then sorts the list so it is in order, and then gets how many different elements are in the list and counts it. The variables will be processed to get statistics that will broadly indicate the distribution of the set (expected value, median, mode, standard deviation of the set, etc..). In our program we will also implement some algorithms to generate prediction models, particularly linear and polynomial regression, of the variables. 
 The Program uses 3 diferent ways to get the statistics:
