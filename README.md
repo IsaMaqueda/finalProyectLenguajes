@@ -98,6 +98,8 @@ To use the program we use
 * **mode** return the most frequent element within a list
 * **standard-deviation** calculate standard deviation of the set
 * **factorial** function to calculate factorial of given number
+* **overview** applies all the previous functions to the given list and displays all the results in a new list.
+  * ![Image of function](images/summary.png)
 
 * **PoissPdf** function to calculate the probability of x given lambda as a Poisson Process
 * **PoissCdf** function to calculate the probability of range (a b) given lambda as a Poisson Process
