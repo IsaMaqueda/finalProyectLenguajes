@@ -111,6 +111,7 @@ the prediction result.
 user can input any in-bound value and get a prediction for a month.
 
 * **visualizePredict** displays the linear and polynomial prediction by month, given the x and y train data.
+ * ![Image of function](images/predictions.png)
 
 
 
