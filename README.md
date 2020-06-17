@@ -139,7 +139,7 @@ To use the program we use
 * **LSR** function to train linear model with the x and y data provided, it accepts both an exact value and a range of values to produce
 the prediction result. 
 
-* **trainLSR** given the x and y train lists, produces the prediction model for the third degree polynomial which consist of a coefficient vector to be applied to the prediciton function.
+* **trainPLSR** given the x and y train lists, produces the prediction model for the third degree polynomial which consist of a coefficient vector to be applied to the prediciton function.
 
 * **PLSR** given a value or a list of values, uses the model of trainLSR to produce the polynomial prediction procedure from which the
 user can input any in-bound value and get a prediction for a month.
