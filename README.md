@@ -47,9 +47,41 @@ And to run
 racket
 ```
 ``` 
-(enter! "Proyect5.rkt")
+(enter! "finalProject.rkt")
 ```
-and choose which functions to call.
+The program will currently default to the hardcoded data available, namely the following definitions.
+
+``` 
+(define independent '(1 2 3 4 5 6 7 8 9 10 11 12))
+(define dependent '(15490 13810 14804 13159 14503 14481 13929 15356 15333 17000 16436 16802))
+(define months '(jan feb mar apr may jun jul aug sep oct nov dic))
+```
+
+It then will use these averages to produce the statistical overview.
+``` 
+(overview dependent)
+```
+
+Further ahead, it will automatically train the polynomial model and call it to produce the predicted list
+``` 
+(define modelPLSR (trainPLSR independent dependent))
+
+(define polyList (PLSR modelPLSR independent))
+```
+
+It then will call the visualization functions using the data provided
+
+``` 
+(visualizePredict independent dependent months)
+```
+
+Lastly, it will display a plot of the prediction functions that were produced.
+``` 
+(plot (list (points(map vector independent dependent))
+            (function (λ (x) (PLSR modelPLSR x)) (min independent) (max independent) #:label "Polynomial") 
+            (function (λ (x) (LSR independent dependent x)) (min independent) (max independent) #:color 0 #:style 'dot #:label "Linear"))
+        #:x-min (min independent) #:x-max (max independent) #:y-min (- (min polyList) (standard-deviation polyList)) #:y-max (+ (max polyList) (standard-deviation polyList)))
+```
 
 ## Running the tests
 Move to the folder
