@@ -91,7 +91,7 @@ To run the tests you first
 
 To use the program we use 
 ``` 
-(enter! "Proyect5.rkt")
+(enter! "finalProject.rkt")
 ```
 
 ``` 
