@@ -87,9 +87,44 @@ To use the program we use
       (get-averager 3 "ejemplo.csv")
       ```
   * ![Image of function](images/average.jpeg)
+  
+* **len** calculate length of list
+* **sum** calculate addition of all the elements within the list
+* **average** calculate average of list
+* **max** retrieve maximum value of list
+* **min** retrieve minimum value of list
+* **median** retrieve median value of list
+* **count** count the number of times an element is repeated within a list 
+* **mode** return the most frequent element within a list
+* **standard-deviation** calculate standard deviation of the set
+* **factorial** function to calculate factorial of given number
+
+* **PoissPdf** function to calculate the probability of x given lambda as a Poisson Process
+* **PoissCdf** function to calculate the probability of range (a b) given lambda as a Poisson Process
+
+* **LSR** function to train linear model with the x and y data provided, it accepts both an exact value and a range of values to produce
+the prediction result. 
+
+* **trainLSR** given the x and y train lists, produces the prediction model for the third degree polynomial which consist of a coefficient vector to be applied to the prediciton function.
+
+* **PLSR** given a value or a list of values, uses the model of trainLSR to produce the polynomial prediction procedure from which the
+user can input any in-bound value and get a prediction for a month.
+
+* **visualizePredict** displays the linear and polynomial prediction by month, given the x and y train data.
+
+
 
 ## Description of the program
-The program recieves a csv file, gets a column from the file, gets the diferent elements that are in that column and counts the numebr of instances each element has in that column. Then
+The program recieves a csv file, gets a column from the file, gets the diferent elements that are in that column and counts the number of instances each element has in that column.
+
+Provided the averages in a list format, the program is able to perform a battery of basic statistical analysis to broadly indicate its
+distribution.
+
+It later produces the following prediction functions:
+ * Least Squares Linear Regression
+ * Least Squares Third Degreee Polynomial Regression
+ 
+ Which in turn produce the predicted values based on the data consumed. 
 
 ## Topics Used 
  * **FILE INPUT**
@@ -108,8 +143,9 @@ You need to use ubuntu or DrRacket in Windows.
 
 
 ## Authors
-* **Isabel Maqueda Rolon A01652906**
 * **Eduardo Badillo Alvarez A01020716**
+* **Isabel Maqueda Rolon A01652906**
+ 
 
 
 ## License
@@ -118,5 +154,4 @@ This project is licensed under the TEC License
 ## Acknowledgments
 * [Guillermo Echeverria](https://github.com/gilecheverria)
 * [Linear Regression](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm)
-* [Polynomial Regression](https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/#:~:text=Polynomial%20Regression%20is%20a%20form,denoted%20E(y%20%7Cx))
 * [Poisson Distribution](https://stattrek.com/probability-distributions/poisson.aspx#:~:text=Poisson%20Formula.,(%CE%BCx)%20%2F%20x!&text=The%20mean%20of%20the%20distribution%20is%20equal%20to%20%CE%BC%20.)
